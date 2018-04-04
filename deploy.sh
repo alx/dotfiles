@@ -16,9 +16,9 @@ ln -sf $PWD/.i3blocks.conf $HOME/.i3blocks.conf
 #
 # git config
 #
-rm -rf $HOME/.git $HOME/.gitignore
-ln -sf $PWD/.git $HOME/.git
+rm -rf $HOME/.gitignore $HOME/.gitconfig
 ln -sf $PWD/.gitignore $HOME/.gitignore
+ln -sf $PWD/.gitconfig $HOME/.gitconfig
 
 #
 # zsh - http://ohmyz.sh/
