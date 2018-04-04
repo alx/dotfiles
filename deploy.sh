@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/zsh
 
 #
 # i3 - https://i3wm.org/
@@ -51,4 +51,4 @@ ln -sf $PWD/.Xresources $HOME/.Xresources
 #
 # load new shell
 #
-source $HOME/.zshrc
+zsh
