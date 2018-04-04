@@ -49,6 +49,14 @@ rm -rf $HOME/.Xresources
 ln -sf $PWD/.Xresources $HOME/.Xresources
 
 #
+# fzf - A command-line fuzzy finder
+# https://github.com/junegunn/fzf
+#
+rm -rf $HOME/.fzf $HOME/.fzf.zsh
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+#
 # load new shell
 #
 zsh
