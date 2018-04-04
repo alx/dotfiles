@@ -120,3 +120,7 @@ then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# https://github.com/tomnomnom/gron
+alias norg="gron --ungron"
+alias ungron="gron --ungron"
