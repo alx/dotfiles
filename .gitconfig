@@ -66,3 +66,5 @@
   cmd = /home/alx/bin/icdiff --line-numbers $LOCAL $REMOTE
 [oh-my-zsh]
 	hide-dirty = 0
+[fetch]
+	fsckobjects = false
