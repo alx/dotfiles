@@ -1,3 +1,4 @@
 .i3/i3-wk-switch
 .tmux/resurrect/*
 !.tmux/resurrect/.gitkeep
+.vim/plugged/*
