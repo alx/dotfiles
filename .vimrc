@@ -12,12 +12,15 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 " Plugins {{{
 call plug#begin('~/.vim/plugged')
 
+Plug 'Valloric/YouCompleteMe'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 Plug 'vimwiki/vimwiki'
 Plug 'wakatime/vim-wakatime'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
 Plug 'junegunn/fzf.vim'
-Plug 'w0rp/ale'
+"Plug 'w0rp/ale'
 
 " Balwolf - Steve Losh - dark theme
 Plug 'sjl/badwolf'
@@ -46,7 +49,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'godlygeek/tabular'
 
 " Syntastic
-" Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
 
 " Formats
 Plug 'sheerun/vim-polyglot'

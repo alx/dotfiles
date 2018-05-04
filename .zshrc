@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$PATH:/usr/bin:/usr/local/bin:/bin:$HOME/bin:$HOME/.rvm/bin"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:$HOME/bin:$HOME/.rvm/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -9,7 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="minimal"
+ZSH_THEME="bureau"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
